@@ -1,5 +1,4 @@
 ---
-
 # **JAVA - Just Another Virtual Repository** 🚀  
 
 ### **"Every line of code I write is a step towards mastering Java. Or at least not breaking my IDE."**  
@@ -13,8 +12,8 @@ Back in school, my teacher gave us a leave letter format, and like a true **Copy
 ### **From College Noob to Tech Explorer**  
 Fast forward to college—I was your **typical noob**, watching YouTube tutorials at 2 AM, chilling in the library with someone’s **EEE thesis**, and praying my code would compile. But guess what? While my code broke, my **technical documentation skills were elite**.  
 
-📜 **Pre-Final Year Project**: A **Game Development** project using Unity & Blender 🎮  
-📖 **Final Year Project**: A **MERN Stack Full-Stack E-BOOK Website** 💻  
+📜 **Pre-Final Year Project** → A **Game Development** project using Unity & Blender 🎮  
+📖 **Final Year Project** → A **MERN Stack Full-Stack E-BOOK Website** 💻  
 
 I wasn’t the best coder, but when it came to writing reports, I was a **plagiarism-free god** (scoring 90% uniqueness without even trying). But after college, reality hit me like an unhandled exception—**documentation doesn’t land you a tech job, coding skills do.**  
 
@@ -36,5 +35,4 @@ Learning? ✅ Now, it’s time to **make it my own.**
 🔥 **This repo is my brain on GitHub. Let’s grow together, break through our limits, and master Java—one commit at a time.**  
 
 **Welcome to my Java journey. This is just the beginning!** 🚀💻  
-
 ---
