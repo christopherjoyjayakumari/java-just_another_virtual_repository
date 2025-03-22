@@ -1,4 +1,3 @@
-```md
 # **JVM, JRE, and JDK - Setting Up Java Like a Pro** 🚀  
 
 ## **Before We Start – The IDE Flex Problem**  
@@ -15,8 +14,6 @@ But let’s be real, **Java programs can be written in Notepad** (yeah, ancient 
 Back in the 90s, **Java legends coded in Vim, Notepad++, Eclipse, and IntelliJ**.  
 Meanwhile, in India, **owning a computer itself was rare**—no wonder I’m struggling today.  
 But let’s be honest, **if I had a PC back then, I’d just use it for video games** anyway. 🎮  
-
----
 
 ## **Step 1: Download & Install JDK (Without Spoiling Your System 🤣)**  
 
@@ -40,10 +37,10 @@ But let’s be honest, **if I had a PC back then, I’d just use it for video ga
 ## **Step 2: Install JDK on Your System**  
 
 ### **1. Download the JDK Installer**  
-- Pick the correct version for your OS:  
-  - 🖥 **Windows:** `.exe`  
-  - 🍏 **Mac:** `.dmg`  
-  - 🐧 **Linux:** `.tar.gz`  
+Pick the correct version for your OS:  
+- 🖥 **Windows:** `.exe`  
+- 🍏 **Mac:** `.dmg`  
+- 🐧 **Linux:** `.tar.gz`  
 
 ### **2. Run the Installer**  
 - **Windows:** Click **Next > Next > Finish** (Yeah, it’s that easy).  
@@ -53,20 +50,26 @@ But let’s be honest, **if I had a PC back then, I’d just use it for video ga
 ### **3. Set Up Environment Variables (Windows Users Only)**  
 - Open **System Properties > Environment Variables**  
 - Add `JAVA_HOME` with the path:  
-  ```
-  C:\Program Files\Java\jdk-XX
-  ```
+
+  ```  
+  C:\Program Files\Java\jdk-XX  
+  ```  
+
 - Update `Path` to include:  
-  ```
-  %JAVA_HOME%\bin
+
+  ```  
+  %JAVA_HOME%\bin  
   ```  
 
 ### **4. Verify Installation**  
 Open your terminal and run:  
+
 ```sh
 java -version
 ```
+
 If it prints something like this, **congrats! Your system is now ready to run Java (or crash unexpectedly).**  
+
 ```
 java version "17.0.9" 2024-XX-XX LTS
 ```
@@ -103,4 +106,3 @@ Congratulations, you’re now a **real** Java developer! 🎉 Now go write some 
 🔹 **If this guide helped you, star the repo! ⭐**  
 🔹 **Java Developers Never Die… They Just Get Garbage Collected.** ♻️  
 🔹 **Reader:** Java? **Me:** *"You're goddamn right."* 😎  
-```
