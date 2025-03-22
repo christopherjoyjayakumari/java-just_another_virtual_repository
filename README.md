@@ -1,5 +1,3 @@
----
-
 # **JAVA - Just Another Virtual Repository** 🚀  
 
 ### **"Every line of code I write is a step towards mastering Java. Or at least not breaking my IDE."**  
@@ -36,5 +34,3 @@ Learning? ✅ Now, it’s time to **make it my own.**
 🔥 **This repo is my brain on GitHub. Let’s grow together, break through our limits, and master Java—one commit at a time.**  
 
 **Welcome to my Java journey. This is just the beginning!** 🚀💻  
-
----
