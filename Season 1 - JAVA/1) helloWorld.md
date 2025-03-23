@@ -1,4 +1,4 @@
-java_journey: |
+java_journey: >
   # Java - The Developer’s Journey  
   ## Season 1: The Rise of a Developer  
 
@@ -66,4 +66,4 @@ java_journey: |
   - Try modifying the `Hello, World!` message for fun!  
   - Get ready for **Season 1, Episode 2!** 🎬  
 
-  🔥 Remember: Every developer was once a beginner. Keep coding, keep growing!  
+  🔥 Remember: Every developer was once a beginner. Keep coding, keep growing!
