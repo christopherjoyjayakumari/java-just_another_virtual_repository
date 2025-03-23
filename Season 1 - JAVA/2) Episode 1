@@ -1,0 +1,126 @@
+# Java - The Developer’s Journey (Season 1: The Rise of a Developer)
+
+## **Chapter 1: Hello, World! (Your First Java Program)**
+
+### **Episode Plot:**
+A clueless beginner steps into the world of Java, unaware of the power they are about to unlock. From writing their first **"Hello, World!"** to executing it in the terminal, their journey begins. Every legendary developer starts somewhere—and this is your first step.
+
+---
+
+### **1. Writing & Running Your First Java Program**
+Let's start with the legendary **Hello, World!** program.
+
+#### **Step 1: Create a Java File**
+Save a new file as `HelloWorld.java`
+
+#### **Step 2: Write the Code**
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+#### **Step 3: Run the Code in Terminal**
+Follow these steps to compile and run your program using the terminal (Command Prompt or Terminal in Mac/Linux):
+
+1. **Open Terminal/Command Prompt** and navigate to the folder where `HelloWorld.java` is saved.
+   ```sh
+   cd path/to/your/file
+   ```
+2. **Compile the Java file**
+   ```sh
+   javac HelloWorld.java  # This generates HelloWorld.class
+   ```
+3. **Run the Java program**
+   ```sh
+   java HelloWorld
+   ```
+   Output:
+   ```
+   Hello, World!
+   ```
+
+**Troubleshooting Tips:**
+- If you see an error like `javac: command not found`, ensure that Java is properly installed and added to your system's environment variables.
+- Always check that the filename and class name match exactly (Java is case-sensitive!).
+
+---
+
+### **2. Understanding the Main Method**
+Before diving into deeper concepts, let’s understand why the `main` method is crucial in Java.
+
+#### **Superhero Analogy: The Power of Main Method**
+Think about it—Iron Man’s suit doesn’t operate without J.A.R.V.I.S., Spider-Man doesn’t sling webs without his suit’s web shooters, and Heisenberg doesn’t break bad without chemistry. In Java, the `main` method is that **one starting point** that brings everything to life.
+
+Or consider chatting with your friends on WhatsApp or Instagram. Without opening the app, you can't chat. **Java is the app, and installing the JDK is like installing the app**—just a small reminder!
+
+Now, after entering the app, you don’t start chatting immediately. You tap on a chat box (like clicking on a program’s execution). Typing your message and clicking send is like running your Java code. If your message doesn’t go through due to poor network, that’s similar to a **compile-time or runtime error**—we’ll discuss this in detail later.
+
+Once you send a message and receive a reply, you get an **output**—but if you don’t get a reply, well… sorry, that person might just be ghosting you! 👻 This is how the **main method** works—it ensures that your Java program starts execution correctly.
+
+💡 **Interview Tip:**
+- The `main` method is the **entry point** of every Java application.
+- In interviews, you might be asked: **Is `main` a thread?**
+  - Yes, `main` runs as a **single thread**.
+  - In the future, we’ll explore multi-threading to handle complex tasks efficiently.
+
+---
+
+### **3. Java Basics: Variables, Data Types & Operators**
+Now that we understand how Java starts execution, let’s cover fundamental building blocks.
+
+#### **3.1 Variables in Java**
+A **variable** is a container for storing data. In Java, every variable must have a **type**.
+
+Example:
+```java
+int age = 25;  // Integer variable
+String name = "John Doe";  // String variable
+boolean isJavaFun = true;  // Boolean variable
+```
+
+#### **3.2 Data Types in Java**
+Java has two main types of data:
+- **Primitive Data Types:**
+  - `byte` (8-bit): -128 to 127
+  - `short` (16-bit): -32,768 to 32,767
+  - `int` (32-bit): -2^31 to (2^31)-1
+  - `long` (64-bit): -2^63 to (2^63)-1
+  - `float` (32-bit) and `double` (64-bit) for decimal values
+  - `char` (16-bit) for a single character
+  - `boolean` (1-bit) for `true` or `false`
+- **Non-Primitive Data Types:** `String`, `Arrays`, `Classes`
+
+Example:
+```java
+byte smallNumber = 127;
+int num = 10;
+double price = 99.99;
+char grade = 'A';
+boolean isPassed = true;
+```
+
+#### **3.3 Operators in Java**
+Operators are used to perform operations on variables.
+- **Arithmetic Operators**: `+`, `-`, `*`, `/`, `%`
+- **Relational Operators**: `==`, `!=`, `>`, `<`, `>=`, `<=`
+- **Logical Operators**: `&&`, `||`, `!`
+
+Example:
+```java
+int a = 10, b = 5;
+System.out.println(a + b);  // Output: 15
+System.out.println(a > b);  // Output: true
+```
+
+---
+
+### **The Journey Continues...**
+Congratulations! 🎉 You have completed your first step in Java. 
+
+**What’s next?** In the next episode, we dive into **Control Flow Statements**—if-else conditions, loops, and switch cases—so we can make Java programs **smarter**.
+
+🔹 **Are you ready for Episode 2: The Path of Logic?** 🚀
+
